@@ -1,0 +1,33 @@
+body {
+  display: grid;
+  grid-template: auto 1fr auto / auto 1fr auto;
+  height: 100vh;
+
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 1rem;
+  grid-column: 1 / 4;
+  background: red;
+  text-align: center;
+}
+
+.sidebar {
+  padding: 2rem;
+  grid-column: 1 / 2;
+  background: green;
+}
+
+main {
+  grid-column: 2 / 4;
+  background: yellow;
+}
+
+footer {
+  padding: 1rem;
+  grid-column: 1 / 4;
+  background: #f1f1f1;
+  text-align: center;
+}
